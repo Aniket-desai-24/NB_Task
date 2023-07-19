@@ -1,0 +1,37 @@
+# Photo Scraping from Google
+
+This project allows users to input the name of any famous person, and the code will find photos from Google Images and download a specified number of photos (up to 50) into the local system.
+
+## Problem Statement
+
+The goal of this project is to scrape photos of famous people from Google Images based on user input and download them for local storage. The project utilizes the Google Images Search API to perform the image search and retrieve the desired photos.
+
+## Approach
+
+The project uses the following tools and libraries:
+- Python
+- Requests for making HTTP requests to download the images
+- Google Images Search library for performing the image search
+
+The provided code snippet demonstrates the process of scraping photos from Google Images. The `download_images()` function takes in the search term (name of the famous person), the number of images to download, and the save directory path as inputs. It utilizes the Google Images Search library to perform the search and retrieve the image URLs. Then, it downloads and saves the images to the specified directory.
+
+## How to Run
+
+To run the code and scrape photos from Google Images, follow these steps:
+1. Install the necessary libraries mentioned in the project description (requests, google_images_search).
+2. Set up the Python environment.
+3. Execute the provided code.
+4. Enter the name of the famous person as prompted.
+5. Specify the number of images to download (up to 50) and the save directory path.
+6. The code will perform the image search and download the specified number of photos.
+
+Please note that you need to have a Google Images Search API key and CSE (Custom Search Engine) key to use the Google Images Search library. Make sure to replace the placeholders 'API_key' and 'CSE_key' in the code with your actual keys before running.
+
+Feel free to modify the code and customize it according to your needs. Ensure you comply with the terms of service and usage policies of the websites you are scraping.
+
+## Acknowledgments
+
+This project utilizes the Google Images Search API and the open-source libraries requests and google_images_search. We express our gratitude to the developers and contributors of these libraries for their valuable contributions.
+
+If you have any questions or suggestions, please feel free to reach out.
+
